@@ -374,10 +374,9 @@ margin-bottom: 1rem;
     cursor: pointer;
 }
 
-.portfolio .box-container .box img{
-    height:100%;
-    width:100%;
-    object-fit: cover;
+.portfolio .box-container{
+    background-image:url()
+    object-fit: cover;https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pcmag.com%2Fimagery%2Freviews%2F05cItXL96l4LE9n02WfDR0h-5..v1582751026.png&imgrefurl=https%3A%2F%2Fwww.pcmag.com%2Freviews%2Fnetflix&tbnid=f9eBdqPlC_VXsM&vet=12ahUKEwjj99G02Zf7AhVG0RoKHXj7CUgQMygBegUIARDhAQ..i&docid=UJ7BHHPqAOXjjM&w=1280&h=720&q=netflix&ved=2ahUKEwjj99G02Zf7AhVG0RoKHXj7CUgQMygBegUIARDhAQ
 }
 
 .portfolio .box-container .box:hover img{
