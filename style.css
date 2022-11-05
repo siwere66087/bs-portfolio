@@ -143,7 +143,20 @@ list-style: none;
 li a{
     text-decoration: none;
 }
+/*responsive*/
+@media (min-width:557px){
+    .user{
+        
+        top:10%;
+    }
 
+}
+@media (min-width:550px){
+    #social-icons{
+        display: block;
+       
+    }
+}
 #menu{
     position: fixed;
     top:2rem; right:2rem;
