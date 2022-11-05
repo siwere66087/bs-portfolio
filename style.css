@@ -196,12 +196,13 @@ li a{
     
     
     }
-.home h1{
-    background-color:white;
+.home .text-wrapper h1{
+    color:white;
     font-size:20px;
     
     .text-wrapper{
 border: 2px solid gray;
+        color:white;
 
 
     }
