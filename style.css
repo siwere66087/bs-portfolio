@@ -338,6 +338,82 @@ li a{
     flex-flow: column;
     padding:0 15rem;
 }
+.intro{
+    color: white;
+font-size: 20px;
+text-transform: uppercase;
+margin-top: 16px;
+}
+.animate-name{
+    font-size: 30px;
+    color: yellow;
+}
+.wrapper {
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
+    background: linear-gradient(to right, #834d9b, #d04ed6);
+  }
+  
+  .wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, .7);
+    transition: all .4s;
+  }
+  
+  .modal:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modal__content {
+    border-radius: 4px;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    background: #fff;
+    padding: 1em 2em;
+  }
+  
+  .modal__footer {
+    text-align: right;
+    a {
+      color: #585858;
+    }
+    i {
+      color: #d02d2c;
+    }
+  }
+  .modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #585858;
+    text-decoration: none;
+  }
 #social-icons{
     width: 550px;
     height: 10vh;
@@ -359,17 +435,16 @@ li a{
     
     
     }
-    .text-wrapper{
+    #social-icons li a i:hover{
+color: rgb(255, 183, 1);
+}
+.text-wrapper{
 border: 2px solid gray;
-
-
-    }
+}
     
     #socials i{
 margin-bottom: 1rem;
-
-
-    }
+ }
     #icons{
    
     border-radius: 50px;
@@ -539,18 +614,29 @@ margin-bottom: 1rem;
     margin:2rem;
     overflow: hidden;
     cursor: pointer;
+    background-color: #834d9b ;
+    background-image: url('assets/img/netflix.jpg');
 }
 
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
     object-fit: cover;
+    
 }
 
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
+/*testamonial*/
+.lh-lg{
+font-size: 20px;
 
+
+}
+
+
+/*contact*/
 .contact .row{
     display: flex;
     align-items: center;
@@ -623,23 +709,6 @@ background-color: #fff;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 
