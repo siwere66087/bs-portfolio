@@ -338,6 +338,16 @@ li a{
     flex-flow: column;
     padding:0 15rem;
 }
+.home-pp{
+    width: 15rem;
+    height: 15rem;
+
+}
+.home-pp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12rem;
+}
 .intro{
     color: white;
 font-size: 20px;
@@ -606,16 +616,17 @@ margin-bottom: 1rem;
     flex-wrap: wrap;
     padding:2rem 0;
 }
-
+/*.portfolio .box-container{
+    background-image: url('assets/img/netflix.jpg');
+}*/
 .portfolio .box-container .box{
     height: 20rem;
-    width:26rem;
+    width:30rem;
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
-    cursor: pointer;
-    background-color: #834d9b ;
-    background-image: url('assets/img/netflix.jpg');
+background-image: url(/assets/img/netflix.jpg);
+    
 }
 
 .portfolio .box-container .box img{
